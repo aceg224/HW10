@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1851F1E922105126006951BC /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851F1E822105126006951BC /* StopWatch.swift */; };
 		1871EA72220F2292005C4CE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871EA71220F2292005C4CE0 /* AppDelegate.swift */; };
-		1871EA74220F2292005C4CE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871EA73220F2292005C4CE0 /* ViewController.swift */; };
 		1871EA77220F2292005C4CE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1871EA75220F2292005C4CE0 /* Main.storyboard */; };
 		1871EA79220F2294005C4CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1871EA78220F2294005C4CE0 /* Assets.xcassets */; };
 		1871EA7C220F2294005C4CE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1871EA7A220F2294005C4CE0 /* LaunchScreen.storyboard */; };
 		1871EA87220F2294005C4CE0 /* HW10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871EA86220F2294005C4CE0 /* HW10Tests.swift */; };
 		1871EA92220F2294005C4CE0 /* HW10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871EA91220F2294005C4CE0 /* HW10UITests.swift */; };
+		1871EAA0220F22DA005C4CE0 /* QnaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871EA9F220F22DA005C4CE0 /* QnaViewController.swift */; };
+		1871EAA4220F2481005C4CE0 /* Qna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871EAA3220F2481005C4CE0 /* Qna.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1851F1E822105126006951BC /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
 		1871EA6E220F2292005C4CE0 /* HW10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1871EA71220F2292005C4CE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1871EA73220F2292005C4CE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1871EA76220F2292005C4CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1871EA78220F2294005C4CE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1871EA7B220F2294005C4CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		1871EA8D220F2294005C4CE0 /* HW10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW10UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1871EA91220F2294005C4CE0 /* HW10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW10UITests.swift; sourceTree = "<group>"; };
 		1871EA93220F2294005C4CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1871EA9F220F22DA005C4CE0 /* QnaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QnaViewController.swift; sourceTree = "<group>"; };
+		1871EAA3220F2481005C4CE0 /* Qna.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qna.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				1871EA71220F2292005C4CE0 /* AppDelegate.swift */,
-				1871EA73220F2292005C4CE0 /* ViewController.swift */,
 				1871EA75220F2292005C4CE0 /* Main.storyboard */,
+				1871EA9F220F22DA005C4CE0 /* QnaViewController.swift */,
 				1871EA78220F2294005C4CE0 /* Assets.xcassets */,
 				1871EA7A220F2294005C4CE0 /* LaunchScreen.storyboard */,
 				1871EA7D220F2294005C4CE0 /* Info.plist */,
+				1871EAA3220F2481005C4CE0 /* Qna.swift */,
+				1851F1E822105126006951BC /* StopWatch.swift */,
 			);
 			path = HW10;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1871EA74220F2292005C4CE0 /* ViewController.swift in Sources */,
+				1871EAA4220F2481005C4CE0 /* Qna.swift in Sources */,
 				1871EA72220F2292005C4CE0 /* AppDelegate.swift in Sources */,
+				1871EAA0220F22DA005C4CE0 /* QnaViewController.swift in Sources */,
+				1851F1E922105126006951BC /* StopWatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X725M6FRD5;
 				INFOPLIST_FILE = HW10/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X725M6FRD5;
 				INFOPLIST_FILE = HW10/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
